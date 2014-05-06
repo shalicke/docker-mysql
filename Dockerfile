@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu:14.04
+FROM dockerfile/ubuntu
 MAINTAINER Sam Halicke <sam@twenty20.com>
 
 RUN apt-get update -qq && apt-get install -y mysql-server-5.5
